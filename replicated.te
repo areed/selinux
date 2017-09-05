@@ -1,0 +1,7 @@
+policy_module(replicated, 1.0.0)
+
+gen_require(`
+	type spc_t;
+')
+
+typealias spc_t alias replicated_t;
